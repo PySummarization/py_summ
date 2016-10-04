@@ -1,7 +1,39 @@
-Associação Desportiva São Caetano é um clube brasileiro de futebol, sediado na cidade de São Caetano do Sul, estado de São Paulo. Foi fundado em 4 de dezembro de 1989, inicialmente o nome de Sociedade Esportiva Recreativa União Jabaquara, que foi mudada para o nome atual após o novo clube conseguir sua filiação junto a Federação Paulista de Futebol.
+O primeiro laboratório visitado foi o LabInc (Laboratório de Inteligência Computacional). De acordo com os alunos presentes no momento da visita, o laboratório trabalha com aplicação de algoritmos de inteligência artificial (algoritmos de classificação) e bando de dados divididos em grupos. Utilizam também algoritmos de posterização e árvores de decisão para entender o significado de cada grupo. O laboratório trabalha, atualmente, com a base de dados do SIGAA (Sistema Integrado de Gestão de Atividades Acadêmicas), dividindo-a em grupos de alunos bons, ruins e regulares. Não utilizam nenhum equipamento específico além dos computadores.
+	O laboratório funciona o dia inteiro, sendo que alguns alunos vão até mesmo aos finais de semana. A carga horária deles depende das atividades que são passadas pelos professores responsáveis, que são: Kelson Romulo Teixeira Aires, Rodrigo De Melo Souza Veras e Vinicius Ponte Machado. Os projetos são financiados pelo PIBITI (Programa Institucional de Bolsas de Iniciação em Desenvolvimento Tecnológico e Inovação) e, assim, devem gerar novas tecnologias que possam ser aplicadas no mercado.
+	A seleção de novos alunos é feita pelos professores responsáveis, pela observação dos alunos que mais se destacam nas disciplinas referentes a área de pesquisa do laboratório ou pelo interesse dos alunos em participar, procurando os professores. Caso haja uma demanda de alunos maior que a necessária, o professor faz uma seleção por critérios próprios. A capacidade máxima é oito participantes.
 
-É chamado popularmente de "Azulão", que, além de seu mascote, faz alusão a uma das cores do clube, o azul - a outra é o branco. O clube manda suas partidas no Estádio Municipal Anacleto Campanella, cuja capacidade é para pouco mais de 14 mil torcedores. Seu maior rival no esporte é o Santo André, equipe do ABC Paulista.
 
-Os maiores momentos de sua história foram vividos na primeira metade da década de 2000, quando o clube sagrou-se duas vezes vice-campeão do Campeonato Brasileiro de Futebol (em 2000 e 2001) e uma da Copa Libertadores da América (em 2002). Sua principal conquista no futebol profissional é o Campeonato Paulista de 2004.
 
-Atualmente, o São Caetano disputa a Série A2 do Campeonato Paulista.
+
+2.2 CESLA
+
+
+	O Cesla (Circuits and Embedded Systems Lab) é o laboratório que, assim como diz seu nome, trabalha com circuitos e sistemas embarcados, bem como descrição de hardware e prototipagem. Os alunos do laboratório nos informaram que além dos computadores, utilizam placas chamadas FPGA’s, as quais o único professor responsável, Ivan Saraiva Silva, ganhou da empresa Altera. Ele também é responsável pela obtenção de patrocínios e bolsas que partem de outros órgãos de financiamento. Alguns alunos do laboratório recebem bolsas do CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), outros da própria universidade e ainda há aqueles que são voluntários.
+	A entrada de novos alunos é feita pela procura dos mesmos junto ao professor ou ainda pelo convite do professor aos alunos que mais se destacam nas disciplinas referentes à área de pesquisa do laboratório. Quando existe uma grande demanda, o professor seleciona considerando a quantidade vagas, mas ainda de acordo com os atuais alunos, o professor sempre permite a entrada de novos alunos, sendo que, em tempos anteriores, já chegaram a trabalhar dezenove alunos, número bem menor que a atual quantidade. Sendo assim, não existe um teto de integrantes estipulado.
+
+
+2.3 EASII
+
+
+	O laboratório Easii (Engenharia de Software e Informática Industrial) tem como especialidades engenharia de software, inteligência artificial e informática industrial. Um dos alunos nos relatou seu projeto, uma tentativa de melhoramento animal, selecionando por meio de um algoritmo genético quais serão os pais para gerar uma cria mais forte. Tal projeto é feito em parceria com o CCA (Centro de Ciências Agrárias) da UFPI. Trabalham apenas com computadores.
+	Pedro De Alcântara Dos Santos Neto e Raimundo Santos Moura são os professores responsáveis pelo laboratório, que funciona o dia inteiro. São financiados pelo CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), por bolsas da universidade e pelo PIBITI, no qual devem ser geradas novas tecnologias com a possibilidade de aplicação no mercado. Apesar disso, as bolsas são limitadas e atualmente somente três alunos as recebem, no valor de R$ 400,00 cada.
+	Cada aluno trabalha em um projeto diferente, mas que esteja envolvido com a especialidade do laboratório. Os projetos são anuais e os alunos têm obrigação de prestar relatórios parciais e um relatório final. Para orientação dos projetos, os professores costumam se reunir com os alunos uma vez por semana. Já para a entrada de novos alunos, os professores fazem a selecionam os interessados pelo IRA (Índice de Rendimento Acadêmico), mas também solicitam certas disciplinas como pré-requisito, tais como programação orientada a objetos e inteligência artificial.
+
+
+2.4 DYSNEL
+
+
+	O laboratório Dysnel (Distributed Systems and Networks Laboratory) trabalha na área de sistemas distribuídos e redes de computadores, com um atual enfoque em redes ópticas, veiculares e de sensores sem fio. Os integrantes desenvolveram simuladores de redes ópticas para o uso próprio e utilizam simuladores de outras empresas ou instituições nas demais redes trabalhadas. Assim, trabalham apenas com os computadores, pois, devido ao alto custo, não é possível trabalhar com redes físicas.
+	É de responsabilidade do professor André Castelo Branco Soares. Recebem bolsas do PIBIC (Programa Institucional de Bolsas de Iniciação Científica), PIBITI, CNPq e da universidade, sendo que, atualmente, todos os alunos são bolsistas. O laboratório funciona o dia todo e a carga horária de cada aluno é definida pelo professor, levando em consideração se estão na graduação ou mestrado. Os alunos devem prestar conta da produção do laboratório.
+	A seleção de entrada de novos alunos é feita pelo professor e existem alguns requisitos mínimos de disciplinas. É interessante que o aluno interessado tenha um conhecimento prévio das disciplinas de redes, porém, existe a possibilidade de entrar sem esse conhecimento e estudar enquanto participa das atividades do laboratório. O teto de alunos é definido principalmente pela limitação do espaço físico e atualmente, oito alunos trabalham no Dysnel.
+
+
+
+
+2.5 RAPOOZA
+
+
+	O laboratório Rapooza (Robótica Aplicada, Pesquisa Operacional e Otimização) foi desmembrado em dois, o primeiro é focado em otimização (que utiliza algoritmos e heurísticas para melhorar problemas da sociedade), linguagens de programação e bioinformática. Os professores responsáveis por essa parte do laboratório são Luiz Claudio Demes Da Mata Sousa e Antônio Costa De Oliveira. Funcionando o dia inteiro, o laboratório não tem nenhum equipamento especial além de computadores
+	A capacidade alunos é limitada pelo espaço físico e hoje, apenas três alunos trabalham ali, todos com iniciação científica voluntária e, dessa maneira, nenhum recebe bolsa. Cada um deles trabalha com um projeto diferente, mas dentro da área geral de pesquisa do laboratório. A entrada de novos alunos é feita de maneira semelhante aos demais laboratórios, ou seja, os professores selecionam de acordo com o desempenho dos alunos nas disciplinas que fazem parte do âmbito científico do laboratório.
+	Por sua vez, a segunda parte da divisão do Rapooza tem como área de pesquisa a robótica e sistemas elétricos inteligentes, trabalhando atualmente como robôs autônomos e, inclusive, robôs com rodas. Funciona o dia inteiro e é de responsabilidade dos professores André Macedo Santana e Ricardo De Andrade Lira Rabelo. Além de computadores, utilizam placas de prototipagem como Arduino e celulares, com a intenção de embarcá-los nos robôs.
+	Nessa parte do laboratório, todos os alunos do professor André Macedo são financiados pela UFPI e, no geral, dez alunos trabalham atualmente.  Para o ingresso de novos alunos, os professores avaliam e selecionam aqueles interessados ou que se destacam nas disciplinas da área de pesquisa do laboratório.
