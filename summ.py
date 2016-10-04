@@ -48,4 +48,6 @@ def exclude_repeated_sentences(sentences):
 
     return not_repeated
 
-print(exclude_repeated_sentences(expressions))
+
+for i in exclude_repeated_sentences(expressions):
+    print(i + "\n")
