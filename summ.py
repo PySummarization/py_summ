@@ -5,3 +5,6 @@ def read_file():
     return read
 
 text = read_file()
+
+tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
+tokens = tokenizer.tokenize(text.read())
