@@ -23,7 +23,7 @@ for n in commons:
     i += 1
     if i == 5: break
 
-print(usefull_list)
+#print(usefull_list)
 
 
 #generating a list with the sentences that the more common words appears
@@ -33,3 +33,19 @@ for n in usefull_list:
     tokenizer = nltk.tokenize.RegexpTokenizer(regex)
     tokens = tokenizer.tokenize(text)
     for i in tokens: expressions.append(i)
+
+#excluding repeated expressions
+def exclude_repeated_sentences(sentences):
+    not_repeated = []
+    not_repeated.append(expressions[0])
+    flag = 1
+
+    for n in sentences:
+        for i in not_repeated:
+            if n == i: flag = 0
+        if flag: not_repeated.append(n)
+        else: flag = 1
+
+    return not_repeated
+
+print(exclude_repeated_sentences(expressions))
