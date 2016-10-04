@@ -12,4 +12,13 @@ tokens = tokenizer.tokenize(text.read())
 
 stopwords = nltk.corpus.stopwords.words("portuguese")
 freq2 = nltk.FreqDist(w for w in tokens if w not in stopwords)
-print(freq2.most_common(1000))
+commons = freq2.most_common(1000)
+
+
+
+usefull_list = []
+i = 0
+for n in commons:
+    usefull_list.append(n[0])
+    i += 1
+    if i == 5: break
