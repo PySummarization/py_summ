@@ -15,9 +15,15 @@ stopwords = nltk.corpus.stopwords.words("portuguese")
 freq2 = nltk.FreqDist(w for w in tokens if w not in stopwords)
 commons = freq2.most_common(1000)
 
-sentence_regex = u"([^a-z\s][^\.!?]*[\.!?])"
+
+sentence_tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle')
+sentences = sentence_tokenizer.tokenize(text)
+
+
+'''sentence_regex = u"([^a-z\s][^\.!?]*[\.!?])"
 
 matchObj = re.findall(sentence_regex, text)
+'''
 
 tuple_list = []
 
@@ -36,14 +42,14 @@ def score(sent):
     return score
 
 
-for i in matchObj:
+for i in sentences:
     tup = (i,score(i))
     tuple_list.append(tup)
 
 sort_one = sorted(tuple_list,key=lambda x: x[1], reverse=True)
 
 def print_results(sorteds):
-    print('SENTENCE SCORES\n')
+    print('\t\tSENTENCE SCORES\n')
     for i in sorteds:
         print('\nSentence: ',  i[0])
         print('Score: ', i[1])
