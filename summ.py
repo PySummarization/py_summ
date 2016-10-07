@@ -1,60 +1,66 @@
 import nltk, re
 
-def read_file():
-    read = open("example.txt", "r", encoding='utf8')
+def read_file(opened_file):
+    read = open(opened_file, "r", encoding='utf8')
     return read
 
-text = read_file().read()
+def tokenizer(archive):
+    text = read_file(archive).read()
 
-#getting the tokens without pontuation
-tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
-tokens = tokenizer.tokenize(text)
+    #getting the tokens without pontuation
+    tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
+    tokens = tokenizer.tokenize(text)
 
-#removing the stopwords and generating a list with most common words
-stopwords = nltk.corpus.stopwords.words("portuguese")
-freq2 = nltk.FreqDist(w for w in tokens if w not in stopwords)
-commons = freq2.most_common(1000)
+    #removing the stopwords and generating a list with most common words
+    stopwords = nltk.corpus.stopwords.words("portuguese")
+    freq2 = nltk.FreqDist(w for w in tokens if w not in stopwords)
+    commons = freq2.most_common(1000)
 
 
-sentence_tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle')
-sentences = sentence_tokenizer.tokenize(text)
+    sentence_tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle')
+    sentences = sentence_tokenizer.tokenize(text)
 
+    return print_results(generate_tuple(sentences,commons))
 
 '''sentence_regex = u"([^a-z\s][^\.!?]*[\.!?])"
 
 matchObj = re.findall(sentence_regex, text)
 '''
 
-tuple_list = []
 
-def word_score(word):
+def word_score(word,commons):
     for i in commons:
         if i[0] == word:
             return i[1]
     return 0
 
-def score(sent):
+def score(sent,commons):
     score = 0
     tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
     tokens = tokenizer.tokenize(sent)
     for i in tokens:
-        score += word_score(i)
+        score += word_score(i,commons)
     return score
 
+def generate_tuple(sentences,commons):
+    tuple_list = []
+    for i in sentences:
+        tup = (i,score(i,commons))
+        tuple_list.append(tup)
 
-for i in sentences:
-    tup = (i,score(i))
-    tuple_list.append(tup)
+    sort_one = sorted(tuple_list,key=lambda x: x[1], reverse=True)
 
-sort_one = sorted(tuple_list,key=lambda x: x[1], reverse=True)
+    return sort_one
 
 def print_results(sorteds):
-    print('\t\tSENTENCE SCORES\n')
-    for i in sorteds:
-        print('\nSentence: ',  i[0])
-        print('Score: ', i[1])
 
-print_results(sort_one)
+    text = '\t\t\tSENTENCE SCORES\n'
+
+    for i in sorteds:
+        text += '\n > Sentence: %s' % str( i[0])
+        text += '\n > Score: %d\n' %  int(i[1])
+
+    return text
 
 
 # #generating a list with the five (or more) more common words
